@@ -28,7 +28,9 @@ Antimicrobial resistance is one of the biggest threats to global health today. T
 ## Usage
    To train the models and evaluate performance, run the appropriate cells in this notebook
    
-## Antimicrobial-Drug-Resistance
+## Results
 ![Confusion Matrix](Results/output.png)
+
+## Model Performance
 
 
