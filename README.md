@@ -34,9 +34,60 @@ Antimicrobial resistance is one of the biggest threats to global health today. T
 ## Model Performance
 The table below shows the best performing models along with their respective scores and optimal hyperparameters:
 
-Model	Best Score	Best Parameters
-SVM	0.997887	{'C': 1, 'kernel': 'linear'}
-Random Forest	0.999736	{'n_estimators': 1}
-Logistic Regression	0.975431	{'C': 10}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Performance Table</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Model Performance Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Best Score</th>
+                <th>Best Parameters</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SVM</td>
+                <td>0.997887</td>
+                <td>{'C': 1, 'kernel': 'linear'}</td>
+            </tr>
+            <tr>
+                <td>Random Forest</td>
+                <td>0.999736</td>
+                <td>{'n_estimators': 1}</td>
+            </tr>
+            <tr>
+                <td>Logistic Regression</td>
+                <td>0.975431</td>
+                <td>{'C': 10}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
 These results indicate that the Random Forest model achieved the highest accuracy, followed closely by SVM. Adjusting the parameters for each model helped optimize performance, demonstrating that even small tweaks can significantly affect model accuracy for AMR prediction.
 
